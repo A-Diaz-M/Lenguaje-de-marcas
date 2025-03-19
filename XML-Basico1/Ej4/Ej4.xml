@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: Alejandro Díaz
+Curso: 1º DAM
+Fecha: 18/03/2025
+Ejercicio: Ejercicio 4 - Empleados de una Empresa
+-->
+
+<!-- Documento XML que representa la información de empleados de una empresa -->
+<empleados>
+  <empleado>
+    <!-- Datos del empleado Ana García -->
+    <nombre>Ana</nombre>
+    <apellido>García</apellido>
+    <edad>30</edad>
+    <departamento>Ventas</departamento>
+    <cargo>Ejecutivo de ventas</cargo>
+  </empleado>
+  <empleado>
+    <!-- Datos del empleado Luis Rodríguez -->
+    <nombre>Luis</nombre>
+    <apellido>Rodríguez</apellido>
+    <edad>45</edad>
+    <departamento>Finanzas</departamento>
+    <cargo>Analista financiero</cargo>
+  </empleado>
+  <empleado>
+    <!-- Datos del empleado María López -->
+    <nombre>María</nombre>
+    <apellido>López</apellido>
+    <edad>28</edad>
+    <departamento>Marketing</departamento>
+    <cargo>Especialista en redes sociales</cargo>
+  </empleado>
+</empleados>

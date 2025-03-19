@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: Alejandro Díaz
+Curso: 1º DAM
+Fecha: 18/03/2025
+Ejercicio: Ejercicio 3 - Lista de Libros
+-->
+
+<!-- Documento XML que representa una lista de libros.
+     Cada libro se define mediante atributos: titulo, autor y año -->
+<libros>
+  <libro titulo="Cien Años de Soledad" autor="Gabriel García Márquez" año="1967" />
+  <libro titulo="Don Quijote de la Mancha" autor="Miguel de Cervantes" año="1605" />
+  <libro titulo="La sombra del viento" autor="Carlos Ruiz Zafón" año="2001" />
+</libros>

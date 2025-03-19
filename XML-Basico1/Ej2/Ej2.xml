@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: Alejandro Díaz
+Curso: 1º DAM
+Fecha: 18/03/2025
+Ejercicio: Ejercicio 2 - Hechos Históricos
+-->
+
+<!-- Documento XML que almacena hechos históricos -->
+<hechos>
+  <!-- Cada hecho se define en un elemento <hecho> con el atributo "descripcion" -->
+  <hecho descripcion="IBM da a conocer el PC.">
+    <!-- Información de la fecha del hecho -->
+    <fecha>
+      <!-- Día -->
+      <dia>12</dia>
+      <!-- Mes -->
+      <mes>8</mes>
+      <!-- Año -->
+      <año>1981</año>
+    </fecha>
+  </hecho>
+  <hecho descripcion="Se funda Google.">
+    <fecha>
+      <dia>4</dia>
+      <mes>9</mes>
+      <año>1998</año>
+    </fecha>
+  </hecho>
+  <hecho descripcion="Se funda Facebook.">
+    <fecha>
+      <dia>4</dia>
+      <mes>2</mes>
+      <año>2004</año>
+    </fecha>
+  </hecho>
+</hechos>

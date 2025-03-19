@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: Alejandro Díaz
+Curso: 1º DAM
+Fecha: 18/03/2025
+Ejercicio: Ejercicio 1 - Ciudades
+-->
+
+<!-- Documento XML que almacena información de ciudades -->
+<ciudades>
+  <!-- Cada ciudad se representa en un elemento <ciudad> -->
+  <ciudad>
+    <!-- Nombre de la ciudad -->
+    <nombre>Nueva Delhi</nombre>
+    <!-- País con atributo "continente" -->
+    <pais continente="Ásia">India</pais>
+  </ciudad>
+  <ciudad>
+    <nombre>Lisboa</nombre>
+    <pais continente="Europa">Portugal</pais>
+  </ciudad>
+  <ciudad>
+    <nombre>El Cairo</nombre>
+    <pais continente="África">Egipto</pais>
+  </ciudad>
+</ciudades>
