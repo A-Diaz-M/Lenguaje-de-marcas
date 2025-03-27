@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Alejandro Díaz
+Curso: 1ºDAM
+Fecha: 26/03/2025
+Ejercicio: Corrección de Conflictos XML/HTML
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:book="http://example.com/book">
+  <head>
+    <title>Book Review</title>
+  </head>
+  <body>
+    <!-- Sección de reseña de libros -->
+    <book:bookreview>
+      <book:title>Introducción a XML</book:title>
+      <table>
+        <tr align="center">
+          <td>Author</td>
+          <td>Price</td>
+          <td>Pages</td>
+          <td>Date</td>
+        </tr>
+        <tr align="left">
+          <td><book:author>Simon St. Laurent</book:author></td>
+          <td><book:price>31.98</book:price></td>
+          <td><book:pages>352</book:pages></td>
+          <td><book:date>1998/01</book:date></td>
+        </tr>
+      </table>
+    </book:bookreview>
+  </body>
+</html>
