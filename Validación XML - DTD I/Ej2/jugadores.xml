@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jugadores SYSTEM "jugadores.dtd">
+<jugadores>
+  <jugador>
+    <nombre>Juan</nombre>
+    <apellidos>Martínez</apellidos>
+    <equipo>
+      <ciudad>Madrid</ciudad>
+      <presidente>
+        <nombrePresidente>Carlos</nombrePresidente>
+        <apellidosPresidente>González</apellidosPresidente>
+      </presidente>
+    </equipo>
+    <edad>28</edad>
+  </jugador>
+  <jugador>
+    <nombre>Pedro</nombre>
+    <apellidos>Sánchez</apellidos>
+    <equipo>
+      <ciudad>Barcelona</ciudad>
+      <presidente>
+        <nombrePresidente>Fernando</nombrePresidente>
+        <apellidosPresidente>Ruiz</apellidosPresidente>
+      </presidente>
+    </equipo>
+    <edad>30</edad>
+  </jugador>
+  <jugador>
+    <nombre>Lucía</nombre>
+    <apellidos>Rodríguez</apellidos>
+    <equipo>
+      <ciudad>Valencia</ciudad>
+      <presidente>
+        <nombrePresidente>Alberto</nombrePresidente>
+        <apellidosPresidente>Jiménez</apellidosPresidente>
+      </presidente>
+    </equipo>
+    <edad>25</edad>
+  </jugador>
+</jugadores>
