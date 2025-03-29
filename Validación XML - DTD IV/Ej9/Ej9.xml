@@ -1,0 +1,12 @@
+<!-- 
+Nombre: Juan Pérez 
+Curso: Lenguajes de Marcas 
+Fecha: 29/03/2025 
+Ejercicio: Corrección 1-9 - Anidación incorrecta (etiquetas solapadas)
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Se corrigió la anidación para que las etiquetas estén correctamente cerradas -->
+<nota>
+  <para>Ana</para>
+  <de>Juan</de>
+</nota>

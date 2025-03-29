@@ -1,0 +1,38 @@
+<!-- 
+Nombre: Juan Pérez 
+Curso: Lenguajes de Marcas 
+Fecha: 29/03/2025 
+Ejercicio: Factura electrónica 
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura SYSTEM "factura.dtd">
+<factura numero="F001" fecha="29/03/2025">
+  <!-- Datos del emisor -->
+  <datos-emisor>
+    <nombre>Librería El Saber</nombre>
+    <cif>A12345678</cif>
+    <telefono>912345678</telefono>
+  </datos-emisor>
+  <!-- Datos del cliente -->
+  <datos-cliente>
+    <nombre>Biblioteca Central</nombre>
+    <cif>B87654321</cif>
+    <telefono>987654321</telefono>
+  </datos-cliente>
+  <!-- Detalle de la factura -->
+  <detalle-factura importe="150.00">
+    <!-- Línea de producto sin oferta -->
+    <linea codigo-articulo="A1" tipo="Libro">
+      <descripcion>El Quijote</descripcion>
+      <cantidad>2</cantidad>
+      <pvp>25.00</pvp>
+    </linea>
+    <!-- Línea de producto con oferta -->
+    <linea codigo-articulo="A2" tipo="DVD">
+      <descripcion>Documental: Historia del Arte</descripcion>
+      <cantidad>1</cantidad>
+      <pvp>30.00</pvp>
+      <oferta/>
+    </linea>
+  </detalle-factura>
+</factura>

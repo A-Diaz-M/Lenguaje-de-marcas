@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: [Tu Nombre]
+Curso: [Tu Curso]
+Fecha: [DD/MM/AAAA]
+Ejercicio: 2-3 - Noticias
+-->
+<!DOCTYPE noticias [
+  <!ELEMENT noticias (noticia+)>
+  <!ELEMENT noticia (titulo, fecha, contenido)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT fecha (#PCDATA)>
+  <!ELEMENT contenido (#PCDATA | enlace)*>
+  <!ELEMENT enlace (#PCDATA)>
+]>
+<noticias>
+  <noticia>
+    <titulo>Novedades en XML</titulo>
+    <fecha>2025-03-29</fecha>
+    <contenido>Consulta más en <enlace>http://ejemplo.com</enlace></contenido>
+  </noticia>
+</noticias>

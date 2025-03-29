@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: [Tu Nombre]
+Curso: [Tu Curso]
+Fecha: [DD/MM/AAAA]
+Ejercicio: 2-7 - Películas
+-->
+<!DOCTYPE peliculas [
+  <!ELEMENT peliculas (pelicula+)>
+  <!ELEMENT pelicula (titulo, director, año, sinopsis)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT director (#PCDATA)>
+  <!ELEMENT año (#PCDATA)>
+  <!ELEMENT sinopsis (#PCDATA | strong)*>
+  <!ELEMENT strong (#PCDATA)>
+]>
+<peliculas>
+  <pelicula>
+    <titulo>XML al Descubierto</titulo>
+    <director>Carlos García</director>
+    <año>2025</año>
+    <sinopsis>Una historia sobre la importancia de <strong>DTD</strong>.</sinopsis>
+  </pelicula>
+  <pelicula>
+    <titulo>La Validación Perfecta</titulo>
+    <director>Ana Torres</director>
+    <año>2024</año>
+    <sinopsis>Un thriller en el que <strong>XML</strong> se convierte en el protagonista.</sinopsis>
+  </pelicula>
+</peliculas>

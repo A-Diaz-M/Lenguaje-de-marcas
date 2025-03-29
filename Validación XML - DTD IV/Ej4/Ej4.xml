@@ -1,0 +1,12 @@
+<!-- 
+Nombre: Juan Pérez 
+Curso: Lenguajes de Marcas 
+Fecha: 29/03/2025 
+Ejercicio: Corrección 1-4 - Elemento raíz ausente
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Se agregó un elemento raíz 'persona' que envuelve todos los elementos -->
+<persona>
+  <nombre>Maria</nombre>
+  <edad>25</edad>
+</persona>

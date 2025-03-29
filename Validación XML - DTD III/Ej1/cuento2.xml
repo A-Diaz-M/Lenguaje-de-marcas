@@ -1,0 +1,28 @@
+<!-- 
+Nombre: Juan Pérez 
+Curso: Lenguajes de Marcas 
+Fecha: 29/03/2025 
+Ejercicio: Cuento – La sombra del misterio 
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuento SYSTEM "cuento.dtd">
+<cuento cod="B02" título="La sombra del misterio" género="terror">
+  <!-- Personajes del cuento -->
+  <personajes>
+    <personaje id="p1" tipo="principal">
+      <nombre>Detective Noir</nombre>
+      <género>M</género>
+      <url>http://ejemplo.com/detective</url>
+    </personaje>
+    <personaje id="p2" tipo="antagonista">
+      <nombre>El Espectro</nombre>
+      <género>N</género>
+      <descripción>Una presencia inquietante sin forma definida.</descripción>
+    </personaje>
+  </personajes>
+  <!-- Trama del cuento -->
+  <trama>Un relato oscuro lleno de misterio y suspenso.</trama>
+  <!-- Etiquetas del cuento -->
+  <etiqueta nombre="suspenso"/>
+  <etiqueta nombre="misterio"/>
+</cuento>

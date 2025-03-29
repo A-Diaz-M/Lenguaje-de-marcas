@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: [Tu Nombre]
+Curso: [Tu Curso]
+Fecha: [DD/MM/AAAA]
+Ejercicio: 2-4 - Libros
+-->
+<!DOCTYPE libros [
+  <!ELEMENT libros (libro+)>
+  <!ELEMENT libro (titulo, autor, comentario)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT autor (#PCDATA)>
+  <!ELEMENT comentario (#PCDATA | strong)*>
+  <!ELEMENT strong (#PCDATA)>
+]>
+<libros>
+  <libro>
+    <titulo>LENGUAJES DE MARCAS - XML</titulo>
+    <autor>Autor Desconocido</autor>
+    <comentario>Este libro trata sobre <strong>DTD</strong> y XML.</comentario>
+  </libro>
+  <libro>
+    <titulo>Otro Ejemplo</titulo>
+    <autor>María López</autor>
+    <comentario>Incluye <strong>ejemplos</strong> prácticos de validación.</comentario>
+  </libro>
+</libros>

@@ -1,0 +1,17 @@
+<!-- 
+Nombre: Juan Pérez 
+Curso: Lenguajes de Marcas 
+Fecha: 29/03/2025 
+Ejercicio: Corrección 1-1 - Error en el cierre de una etiqueta
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+  <!ELEMENT persona (nombre, edad)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT edad (#PCDATA)>
+]>
+<!-- Documento XML corregido: Se completó la etiqueta de cierre de <edad> -->
+<persona>
+  <nombre>Juan</nombre>
+  <edad>30</edad>
+</persona>

@@ -1,0 +1,16 @@
+<!-- 
+Nombre: Juan Pérez 
+Curso: Lenguajes de Marcas 
+Fecha: 29/03/2025 
+Ejercicio: Equipos NBA – DTD 
+-->
+<!ELEMENT EquiposNBA (equipo | nombre)+>
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT equipo (nombre, titulos, posicion, quinteto)>
+<!ATTLIST equipo
+    conferencia CDATA #REQUIRED>
+
+<!ELEMENT titulos (#PCDATA)>
+<!ELEMENT posicion (#PCDATA)>
+<!ELEMENT quinteto (#PCDATA)>

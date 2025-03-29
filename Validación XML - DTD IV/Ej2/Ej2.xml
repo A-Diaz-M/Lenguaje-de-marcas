@@ -1,0 +1,13 @@
+<!-- 
+Nombre: Juan Pérez 
+Curso: Lenguajes de Marcas 
+Fecha: 29/03/2025 
+Ejercicio: Corrección 1-2 - Atributo sin comillas
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE producto [
+  <!ELEMENT producto (#PCDATA)>
+  <!ATTLIST producto id CDATA #REQUIRED>
+]>
+<!-- Se corrigió el error colocando el valor del atributo id entre comillas -->
+<producto id="12345">Zapato</producto>

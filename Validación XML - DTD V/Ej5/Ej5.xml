@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: [Tu Nombre]
+Curso: [Tu Curso]
+Fecha: [DD/MM/AAAA]
+Ejercicio: 2-5 - Revistas
+-->
+<!DOCTYPE revistas [
+  <!ELEMENT revistas (revista+)>
+  <!ELEMENT revista (nombre, numero, fecha, resumen)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT numero (#PCDATA)>
+  <!ELEMENT fecha (#PCDATA)>
+  <!ELEMENT resumen (#PCDATA | strong)*>
+  <!ELEMENT strong (#PCDATA)>
+]>
+<revistas>
+  <revista>
+    <nombre>LENGUAJES DE MARCAS</nombre>
+    <numero>12</numero>
+    <fecha>2025-03-29</fecha>
+    <resumen>Revista especializada en <strong>XML</strong>, DTD y esquemas.</resumen>
+  </revista>
+  <revista>
+    <nombre>Tecnología y Web</nombre>
+    <numero>7</numero>
+    <fecha>2025-01-15</fecha>
+    <resumen>Artículos sobre desarrollo <strong>front-end</strong> y back-end.</resumen>
+  </revista>
+</revistas>

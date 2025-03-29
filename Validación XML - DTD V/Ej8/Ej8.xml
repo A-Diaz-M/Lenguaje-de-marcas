@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: [Tu Nombre]
+Curso: [Tu Curso]
+Fecha: [DD/MM/AAAA]
+Ejercicio: 2-8 - Canciones
+-->
+<!DOCTYPE canciones [
+  <!ELEMENT canciones (cancion+)>
+  <!ELEMENT cancion (titulo, interprete, letra)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT interprete (#PCDATA)>
+  <!ELEMENT letra (#PCDATA | strong)*>
+  <!ELEMENT strong (#PCDATA)>
+]>
+<canciones>
+  <cancion>
+    <titulo>Melodía XML</titulo>
+    <interprete>Grupo Codifica</interprete>
+    <letra>Esta es la <strong>canción</strong> de la validación DTD.</letra>
+  </cancion>
+  <cancion>
+    <titulo>Sonidos de la Red</titulo>
+    <interprete>Banda Digital</interprete>
+    <letra>En <strong>XML</strong> se canta mejor.</letra>
+  </cancion>
+</canciones>

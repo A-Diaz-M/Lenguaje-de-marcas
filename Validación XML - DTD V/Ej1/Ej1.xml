@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: [Tu Nombre]
+Curso: [Tu Curso]
+Fecha: [DD/MM/AAAA]
+Ejercicio: 2-1 - Saludo
+-->
+<!DOCTYPE saludos [
+  <!ELEMENT saludos (saludo+)>
+  <!ELEMENT saludo (#PCDATA | strong)*>
+  <!ELEMENT strong (#PCDATA)>
+]>
+<saludos>
+  <saludo>Hola, <strong>Mundo</strong> de XML</saludo>
+</saludos>

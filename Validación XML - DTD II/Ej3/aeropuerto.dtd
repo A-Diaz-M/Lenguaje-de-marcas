@@ -1,0 +1,22 @@
+<!-- 
+Nombre: Juan Pérez 
+Curso: Lenguajes de Marcas 
+Fecha: 29/03/2025 
+Ejercicio: Aeropuerto – DTD 
+-->
+<!ELEMENT aeropuerto (nombre, vuelos, fecha-panel)>
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT vuelos (vuelo+)>
+
+<!ELEMENT vuelo (origen, destino, hora, diario?)>
+<!ATTLIST vuelo
+    codigo  ID    #REQUIRED
+    estado  (C|E|R) "E">
+
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT diario EMPTY>
+
+<!ELEMENT fecha-panel (#PCDATA)>

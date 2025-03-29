@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: [Tu Nombre]
+Curso: [Tu Curso]
+Fecha: [DD/MM/AAAA]
+Ejercicio: 2-6 - Artículos
+-->
+<!DOCTYPE articulos [
+  <!ELEMENT articulos (articulo+)>
+  <!ELEMENT articulo (titulo, autor, contenido)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT autor (#PCDATA)>
+  <!ELEMENT contenido (#PCDATA | strong)*>
+  <!ELEMENT strong (#PCDATA)>
+]>
+<articulos>
+  <articulo>
+    <titulo>Introducción a DTD</titulo>
+    <autor>María López</autor>
+    <contenido>Este artículo explica <strong>cómo validar</strong> un documento XML.</contenido>
+  </articulo>
+  <articulo>
+    <titulo>Buenas Prácticas XML</titulo>
+    <autor>Juan Pérez</autor>
+    <contenido>Se recomienda mantener <strong>un código ordenado</strong> y bien comentado.</contenido>
+  </articulo>
+</articulos>

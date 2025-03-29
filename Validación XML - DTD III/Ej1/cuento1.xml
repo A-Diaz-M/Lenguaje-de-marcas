@@ -1,0 +1,31 @@
+<!-- 
+Nombre: Juan Pérez 
+Curso: Lenguajes de Marcas 
+Fecha: 29/03/2025 
+Ejercicio: Cuento – El bosque encantado 
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuento SYSTEM "cuento.dtd">
+<cuento cod="A01" título="El bosque encantado" género="infantil">
+  <!-- Personajes del cuento -->
+  <personajes>
+    <personaje id="p1" tipo="principal">
+      <nombre>Caperucita</nombre>
+      <género>F</género>
+      <descripción>Una niña valiente.</descripción>
+      <imagen>caperucita.jpg</imagen>
+    </personaje>
+    <personaje id="p2">
+      <nombre>El Lobo</nombre>
+      <género>M</género>
+      <descripción_fisica>Pelaje gris y mirada astuta.</descripción_fisica>
+    </personaje>
+  </personajes>
+  <!-- Trama del cuento -->
+  <trama>Una aventura en un bosque lleno de magia y peligros.</trama>
+  <!-- Precio del cuento -->
+  <precio moneda="eur">12.99</precio>
+  <!-- Etiquetas del cuento -->
+  <etiqueta nombre="aventura"/>
+  <etiqueta nombre="mágico"/>
+</cuento>

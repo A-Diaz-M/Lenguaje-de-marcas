@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: [Tu Nombre]
+Curso: [Tu Curso]
+Fecha: [DD/MM/AAAA]
+Ejercicio: 2-2 - Conversación
+-->
+<!DOCTYPE conversacion [
+  <!ELEMENT conversacion (mensaje+)>
+  <!ELEMENT mensaje (de, para, hora, texto)>
+  <!ELEMENT de (#PCDATA)>
+  <!ELEMENT para (#PCDATA)>
+  <!ELEMENT hora (#PCDATA)>
+  <!ELEMENT texto (#PCDATA | b)*>
+  <!ELEMENT b (#PCDATA)>
+]>
+<conversacion>
+  <mensaje>
+    <de>Ana</de>
+    <para>Luis</para>
+    <hora>10:00</hora>
+    <texto>Aprendiendo <b>XML</b></texto>
+  </mensaje>
+</conversacion>

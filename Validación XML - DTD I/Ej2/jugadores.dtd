@@ -1,3 +1,10 @@
+<!-- 
+Nombre: [Tu Nombre]
+Curso: [Nombre del Curso]
+Fecha: [DD/MM/AAAA]
+Ejercicio: Jugadores - DTD Externa
+-->
+
 <!ELEMENT jugadores (jugador+)>
 <!ELEMENT jugador (nombre, apellidos, equipo, edad)>
 <!ELEMENT nombre (#PCDATA)>

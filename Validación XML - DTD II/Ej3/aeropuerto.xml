@@ -1,0 +1,29 @@
+<!-- 
+Nombre: Juan Pérez 
+Curso: Lenguajes de Marcas 
+Fecha: 29/03/2025 
+Ejercicio: Aeropuerto 
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aeropuerto SYSTEM "aeropuerto.dtd">
+<aeropuerto>
+  <!-- Nombre del aeropuerto -->
+  <nombre>Aeropuerto Internacional</nombre>
+  <!-- Grupo de vuelos -->
+  <vuelos>
+    <vuelo codigo="V001" estado="E">
+      <origen>Madrid</origen>
+      <destino>Barcelona</destino>
+      <hora>10:00</hora>
+      <!-- Indica que el vuelo es diario -->
+      <diario/>
+    </vuelo>
+    <vuelo codigo="V002" estado="R">
+      <origen>Barcelona</origen>
+      <destino>Sevilla</destino>
+      <hora>12:30</hora>
+    </vuelo>
+  </vuelos>
+  <!-- Fecha del panel -->
+  <fecha-panel>29/03/2025</fecha-panel>
+</aeropuerto>

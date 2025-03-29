@@ -1,0 +1,9 @@
+<!-- 
+Nombre: Juan Pérez 
+Curso: Lenguajes de Marcas 
+Fecha: 29/03/2025 
+Ejercicio: Corrección 1-8 - Falta de declaración de codificación
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Se agregó la codificación UTF-8 en la declaración XML -->
+<saludo>¡Bienvenido!</saludo>

@@ -1,0 +1,26 @@
+<!-- 
+Nombre: Juan Pérez 
+Curso: Lenguajes de Marcas 
+Fecha: 29/03/2025 
+Ejercicio: Equipos NBA 
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EquiposNBA SYSTEM "equiposnba.dtd">
+<EquiposNBA>
+  <!-- Equipo con información detallada -->
+  <equipo conferencia="este">
+    <nombre>Celtics</nombre>
+    <titulos>17</titulos>
+    <posicion>1</posicion>
+    <quinteto>Smart, Brown, Tatum, Walker, Garnett</quinteto>
+  </equipo>
+  <!-- Otro equipo con información detallada -->
+  <equipo conferencia="oeste">
+    <nombre>Lakers</nombre>
+    <titulos>16</titulos>
+    <posicion>2</posicion>
+    <quinteto>LeBron, Davis, Gasol, Carter, West</quinteto>
+  </equipo>
+  <!-- Equipo en forma de nombre simple -->
+  <nombre>Warriors</nombre>
+</EquiposNBA>

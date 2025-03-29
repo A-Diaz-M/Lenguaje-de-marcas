@@ -1,0 +1,12 @@
+<!-- 
+Nombre: Juan Pérez 
+Curso: Lenguajes de Marcas 
+Fecha: 29/03/2025 
+Ejercicio: Corrección 1-5 - Múltiples elementos raíz
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Se creó un elemento raíz 'documento' para envolver 'libro' y 'autor' -->
+<documento>
+  <libro>Título del libro</libro>
+  <autor>Nombre del autor</autor>
+</documento>
