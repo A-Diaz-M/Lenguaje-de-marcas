@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
 Nombre: Alejandro Díaz 
 Curso: 1º DAM
 Fecha: 29/03/2025
 Ejercicio: Equipos NBA 
 -->
-<?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE EquiposNBA SYSTEM "equiposnba.dtd">
 <EquiposNBA>
   <!-- Equipo con información detallada -->

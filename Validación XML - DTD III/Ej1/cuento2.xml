@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
 Nombre: Alejandro Díaz 
 Curso: 1º DAM
 Fecha: 29/03/2025
 Ejercicio: Cuento – La sombra del misterio 
 -->
-<?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE cuento SYSTEM "cuento.dtd">
 <cuento cod="B02" título="La sombra del misterio" género="terror">
   <!-- Personajes del cuento -->
