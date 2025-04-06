@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-Nombre: Alejandro Díaz 
-Curso: 1º DAM
-Fecha: 29/03/2025
-Ejercicio: 2-8 - Canciones
+Nombre: Alejandro Díaz
+Curso: 1ºDAM
+Fecha: 2/04/2025
+Ejercicio 8: Validacion XML
 -->
-<!DOCTYPE canciones [
-  <!ELEMENT canciones (cancion+)>
-  <!ELEMENT cancion (titulo, interprete, letra)>
-  <!ELEMENT titulo (#PCDATA)>
-  <!ELEMENT interprete (#PCDATA)>
-  <!ELEMENT letra (#PCDATA | strong)*>
-  <!ELEMENT strong (#PCDATA)>
+
+<!DOCTYPE contabilidad [ 
+    <!ELEMENT contabilidad (apunte*)> <!-- El elemento contabilidad debe contener 0 o más apuntes -->
+    <!ELEMENT apunte (ingreso | gasto)> 
+    <!ELEMENT ingreso (fecha, cantidad, concepto)> <!-- El elemento ingreso debe contener fecha, cantidad y concepto -->
+    <!ELEMENT gasto (fecha, cantidad, concepto)> <!-- El elemento gasto debe contener fecha, cantidad y concepto -->
+    <!ELEMENT fecha (#PCDATA)> <!-- El elemento fecha debe contener texto -->
+    <!ELEMENT cantidad (#PCDATA)> 
+    <!ELEMENT concepto (#PCDATA)> 
 ]>
-<canciones>
-  <cancion>
-    <titulo>Melodía XML</titulo>
-    <interprete>Grupo Codifica</interprete>
-    <letra>Esta es la <strong>canción</strong> de la validación DTD.</letra>
-  </cancion>
-  <cancion>
-    <titulo>Sonidos de la Red</titulo>
-    <interprete>Banda Digital</interprete>
-    <letra>En <strong>XML</strong> se canta mejor.</letra>
-  </cancion>
-</canciones>
+
+<contabilidad>
+    <apunte>
+        <ingreso>
+            <fecha>24 de febrero de 2011</fecha>
+            <cantidad>1800,00 €</cantidad>
+            <concepto>Salario</concepto>
+        </ingreso>
+    </apunte>
+    <apunte>
+        <gasto>
+            <fecha>28 de febrero de 2011</fecha>
+            <cantidad>74,25 €</cantidad>
+            <concepto>Recibo luz</concepto>
+        </gasto>
+    </apunte>
+</contabilidad>

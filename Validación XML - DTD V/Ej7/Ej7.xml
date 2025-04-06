@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-Nombre: Alejandro Díaz 
-Curso: 1º DAM
-Fecha: 29/03/2025
-Ejercicio: 2-7 - Películas
+Nombre: Alejandro Díaz
+Curso: 1ºDAM
+Fecha: 2/04/2025
+Ejercicio 7: Validacion XML
 -->
-<!DOCTYPE peliculas [
-  <!ELEMENT peliculas (pelicula+)>
-  <!ELEMENT pelicula (titulo, director, año, sinopsis)>
-  <!ELEMENT titulo (#PCDATA)>
-  <!ELEMENT director (#PCDATA)>
-  <!ELEMENT año (#PCDATA)>
-  <!ELEMENT sinopsis (#PCDATA | strong)*>
-  <!ELEMENT strong (#PCDATA)>
+
+<!DOCTYPE colores [ 
+    <!ELEMENT colores (color+)> <!-- El elemento colores debe contener uno o más elementos color -->
+    <!ELEMENT color (nombreSvg, codigo)> <!-- El elemento color debe contener nombreSvg y codigo -->
+    <!ELEMENT nombreSvg (#PCDATA)> <!-- El elemento nombreSvg debe contener texto -->
+    <!ELEMENT codigo (rgb | cmyk)> <!-- El elemento codigo debe contener un único elemento rgb o cmyk -->
+    <!ELEMENT rgb (#PCDATA)>
+    <!ELEMENT cmyk (#PCDATA)> 
 ]>
-<peliculas>
-  <pelicula>
-    <titulo>XML al Descubierto</titulo>
-    <director>Carlos García</director>
-    <año>2025</año>
-    <sinopsis>Una historia sobre la importancia de <strong>DTD</strong>.</sinopsis>
-  </pelicula>
-  <pelicula>
-    <titulo>La Validación Perfecta</titulo>
-    <director>Ana Torres</director>
-    <año>2024</año>
-    <sinopsis>Un thriller en el que <strong>XML</strong> se convierte en el protagonista.</sinopsis>
-  </pelicula>
-</peliculas>
+
+<colores>
+    <color>
+        <nombreSvg>Purple</nombreSvg>
+        <codigo>
+            <rgb>#800080</rgb>
+        </codigo>
+    </color>
+    <color>
+        <nombreSvg>Purple</nombreSvg>
+        <codigo>
+            <cmyk>#00FF007F</cmyk>
+        </codigo>
+    </color>
+</colores>

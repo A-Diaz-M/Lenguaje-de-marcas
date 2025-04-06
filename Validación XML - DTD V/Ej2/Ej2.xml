@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Nombre: Alejandro Díaz 
-Curso: 1º DAM
-Fecha: 29/03/2025
-Ejercicio: 2-2 - Conversación
+<!-- 
+Nombre: Alejandro Díaz
+Curso: 1ºDAM
+Fecha: 2/04/2025 
+Ejercicio 2: Validacion XML
 -->
-<!DOCTYPE conversacion [
-  <!ELEMENT conversacion (mensaje+)>
-  <!ELEMENT mensaje (de, para, hora, texto)>
-  <!ELEMENT de (#PCDATA)>
-  <!ELEMENT para (#PCDATA)>
-  <!ELEMENT hora (#PCDATA)>
-  <!ELEMENT texto (#PCDATA | b)*>
-  <!ELEMENT b (#PCDATA)>
+
+<!DOCTYPE efemerides [ <!-- No de definio correctamente la estructura del DTD -->
+    <!ELEMENT efemerides (efemeride)>
+    <!ELEMENT efemeride (fecha, hecho)>
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT hecho (#PCDATA)>
 ]>
-<conversacion>
-  <mensaje>
-    <de>Ana</de>
-    <para>Luis</para>
-    <hora>10:00</hora>
-    <texto>Aprendiendo <b>XML</b></texto>
-  </mensaje>
-</conversacion>
+
+<efemerides>
+    <efemeride>
+        <fecha>20 de julio de 1969</fecha>
+        <hecho>Llegada del hombre a la Luna</hecho>
+    </efemeride>
+    <efemeride>
+        <fecha>12 de octubre de 1492</fecha>
+        <hecho>Llegada de Colón a América</hecho>
+    </efemeride>
+    <efemeride>
+        <fecha>6 de abril de 1909</fecha>
+        <hecho>Llegada de Robert Peary al Polo Norte</hecho>
+    </efemeride>
+</efemerides>

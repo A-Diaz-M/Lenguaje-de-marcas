@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-Nombre: Alejandro Díaz 
-Curso: 1º DAM
-Fecha: 29/03/2025
-Ejercicio: 2-4 - Libros
+Nombre: Alejandro Díaz
+Curso: 1ºDAM
+Fecha: 2/04/2025 
+Ejercicio 4: Validacion XML
 -->
-<!DOCTYPE libros [
-  <!ELEMENT libros (libro+)>
-  <!ELEMENT libro (titulo, autor, comentario)>
-  <!ELEMENT titulo (#PCDATA)>
-  <!ELEMENT autor (#PCDATA)>
-  <!ELEMENT comentario (#PCDATA | strong)*>
-  <!ELEMENT strong (#PCDATA)>
+
+<!DOCTYPE vuelos [ 
+    <!ELEMENT vuelos (vuelo+)> <!-- El elemento vuelos debe contener uno o más vuelos -->
+    <!ELEMENT vuelo (origen, destino)> <!-- El elemento vuelo debe tener origen y destino en el orden correcto -->
+    <!ELEMENT origen (#PCDATA)>
+    <!ELEMENT destino (#PCDATA)>
 ]>
-<libros>
-  <libro>
-    <titulo>LENGUAJES DE MARCAS - XML</titulo>
-    <autor>Autor Desconocido</autor>
-    <comentario>Este libro trata sobre <strong>DTD</strong> y XML.</comentario>
-  </libro>
-  <libro>
-    <titulo>Otro Ejemplo</titulo>
-    <autor>María López</autor>
-    <comentario>Incluye <strong>ejemplos</strong> prácticos de validación.</comentario>
-  </libro>
-</libros>
+
+<vuelos>
+    <vuelo>
+        <origen>Valencia (VLC)</origen>
+        <destino>Londres Heathrow (LHR)</destino>
+    </vuelo>
+    <vuelo>
+        <origen>Berlin Schönefeld (SFX)</origen>
+        <destino>París Charles de Gaulle (CDG)</destino>
+    </vuelo>
+</vuelos>

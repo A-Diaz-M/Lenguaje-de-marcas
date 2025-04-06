@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-Nombre: Alejandro Díaz 
-Curso: 1º DAM
-Fecha: 29/03/2025
-Ejercicio: 2-9 - Mensajes
+Nombre: Alejandro Díaz
+Curso: 1ºDAM
+Fecha: 2/04/2025
+Ejercicio 9: Validacion XML
 -->
-<!DOCTYPE mensajes [
- 
-  <!ELEMENT mensajes (mensaje+)>
-  <!ELEMENT mensaje (de, para, hora, texto)>
-  <!ELEMENT de (#PCDATA)>
-  <!ELEMENT para (#PCDATA)>
-  <!ELEMENT hora (#PCDATA)>
-  <!ELEMENT texto (#PCDATA | strong)*>
-  <!ELEMENT strong (#PCDATA)>
+
+<!DOCTYPE mensajes [ 
+    <!ELEMENT mensajes (mensaje+)> <!-- El elemento mensajes debe contener uno o más elementos mensaje -->
+    <!ELEMENT mensaje (de, para, hora, texto)> <!-- Cada mensaje debe contener de, para, hora y texto -->
+    <!ELEMENT de (#PCDATA)> <!-- El elemento de debe contener texto -->
+    <!ELEMENT para (#PCDATA)> 
+    <!ELEMENT hora (#PCDATA)> 
+    <!ELEMENT texto (#PCDATA | strong)*> <!-- El elemento texto puede contener texto o elementos strong -->
+    <!ELEMENT strong (#PCDATA)> 
 ]>
+
 <mensajes>
     <mensaje>
         <de>Pepe (pepe@example.com)</de>
@@ -25,7 +26,7 @@ Ejercicio: 2-9 - Mensajes
     <mensaje>
         <de>Juan (juan@example.com)</de>
         <para>Pepe (pepe@example.com)</para>
-        <hora>28/02/2011 17:54:50,27</hora>
+        <hora>28/02/2011 17:54:20,87</hora>
         <texto>Aquí, aprendiendo <strong>XML</strong></texto>
     </mensaje>
 </mensajes>

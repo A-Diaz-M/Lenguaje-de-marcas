@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-Nombre: Alejandro Díaz 
-Curso: 1º DAM
-Fecha: 29/03/2025
-Ejercicio: 2-6 - Artículos
+Nombre: Alejandro Díaz
+Curso: 1ºDAM
+Fecha: 2/04/2025 
+Ejercicio 6: Validacion XML
 -->
-<!DOCTYPE articulos [
-  <!ELEMENT articulos (articulo+)>
-  <!ELEMENT articulo (titulo, autor, contenido)>
-  <!ELEMENT titulo (#PCDATA)>
-  <!ELEMENT autor (#PCDATA)>
-  <!ELEMENT contenido (#PCDATA | strong)*>
-  <!ELEMENT strong (#PCDATA)>
+
+<!DOCTYPE paises [ 
+    <!ELEMENT paises (pais+)> <!-- El elemento paises debe contener uno o más elementos pais -->
+    <!ELEMENT pais (nombre, unionEuropea?, otan?)> <!-- El elemento pais debe tener nombre y opcionalmente unionEuropea y otan -->
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT unionEuropea EMPTY> <!-- El elemento unionEuropea no debe tener contenido -->
+    <!ELEMENT otan EMPTY> 
 ]>
-<articulos>
-  <articulo>
-    <titulo>Introducción a DTD</titulo>
-    <autor>María López</autor>
-    <contenido>Este artículo explica <strong>cómo validar</strong> un documento XML.</contenido>
-  </articulo>
-  <articulo>
-    <titulo>Buenas Prácticas XML</titulo>
-    <autor>Juan Pérez</autor>
-    <contenido>Se recomienda mantener <strong>un código ordenado</strong> y bien comentado.</contenido>
-  </articulo>
-</articulos>
+
+<paises>
+    <pais>
+        <nombre>España</nombre>
+        <unionEuropea/>
+        <otan/>
+    </pais>
+    <pais>
+        <nombre>Noruega</nombre>
+        <otan/>
+    </pais>
+    <pais>
+        <nombre>Austria</nombre>
+        <unionEuropea/>
+    </pais>
+</paises>
