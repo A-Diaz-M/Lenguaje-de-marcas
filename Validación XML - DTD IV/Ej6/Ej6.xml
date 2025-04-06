@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
 Nombre: Alejandro Díaz 
 Curso: 1º DAM
 Fecha: 29/03/2025
 Ejercicio: Corrección 1-6 - Etiqueta de apertura y cierre con nombres diferentes
 -->
-<?xml version="1.0" encoding="UTF-8"?>
+
 <!-- Se corrigió el nombre de la etiqueta de cierre para que coincida con la de apertura -->
 <saludo>
   <mensaje>Hola mundo</mensaje>

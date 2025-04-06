@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
 Nombre: Alejandro Díaz 
 Curso: 1º DAM
 Fecha: 29/03/2025
 Ejercicio: Corrección 1-7 - Uso incorrecto de entidades o caracteres reservados
 -->
-<?xml version="1.0" encoding="UTF-8"?>
+
 <!-- Se escapó el carácter '&' utilizando &amp; -->
 <comentario>
   El símbolo &amp; se usa para indicar "y".

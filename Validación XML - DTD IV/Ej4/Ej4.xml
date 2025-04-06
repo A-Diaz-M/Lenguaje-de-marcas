@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
 Nombre: Alejandro Díaz 
 Curso: 1º DAM
 Fecha: 29/03/2025
 Ejercicio: Corrección 1-4 - Elemento raíz ausente
 -->
-<?xml version="1.0" encoding="UTF-8"?>
+
 <!-- Se agregó un elemento raíz 'persona' que envuelve todos los elementos -->
 <persona>
   <nombre>Maria</nombre>

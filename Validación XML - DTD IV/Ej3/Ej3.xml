@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
 Nombre: Alejandro Díaz 
 Curso: 1º DAM
 Fecha: 29/03/2025
 Ejercicio: Corrección 1-3 - Uso incorrecto de caracteres especiales
 -->
-<?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE mensaje [
   <!ELEMENT mensaje (#PCDATA)>
 ]>

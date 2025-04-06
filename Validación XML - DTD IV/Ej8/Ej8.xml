@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
 Nombre: Alejandro Díaz 
 Curso: 1º DAM
 Fecha: 29/03/2025
 Ejercicio: Corrección 1-8 - Falta de declaración de codificación
 -->
-<?xml version="1.0" encoding="UTF-8"?>
+
 <!-- Se agregó la codificación UTF-8 en la declaración XML -->
 <saludo>¡Bienvenido!</saludo>

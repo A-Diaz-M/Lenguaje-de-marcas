@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
 Nombre: Alejandro Díaz 
 Curso: 1º DAM
 Fecha: 29/03/2025
 Ejercicio: Corrección 1-5 - Múltiples elementos raíz
 -->
-<?xml version="1.0" encoding="UTF-8"?>
+
 <!-- Se creó un elemento raíz 'documento' para envolver 'libro' y 'autor' -->
 <documento>
   <libro>Título del libro</libro>
